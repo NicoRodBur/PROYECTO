@@ -1,0 +1,2614 @@
+@font-face{
+    font-family: Marca;
+    src: url(../FONTS/HKGrotesk-BoldLegacy.otf);
+}
+@font-face {
+    font-family: TipografiaTitulos;
+    src: url(../FONTS/FuturaNowHeadline.ttf);
+}
+@font-face {
+    font-family: Botones;
+    src: url(../FONTS/HKGrotesk-Regular.otf);
+}
+@font-face {
+    font-family: Botones2;
+    src: url(../FONTS/HKGrotesk-BoldLegacy.otf);
+}
+@font-face {
+    font-family: Botones3;
+    src: url(../FONTS/HKGrotesk-SemiBoldItalic.otf);
+}
+@font-face {
+    font-family: TitulosX;
+    src: url(../FONTS/HKGrotesk-ExtraBold.otf);
+}
+@font-face {
+    font-family: Logo;
+    src: url(../FONTS/Timeless.ttf);
+}
+@media screen and (max-width:1336px){
+    .LineaHr{
+        display: none;
+    }
+    .GrupoIconos{
+        display: none;
+    }
+    .ContenedorX {
+        margin-left: 0; /* Elimina el margen izquierdo */
+        margin-right: 20px; /* Agrega un margen derecho */
+    }
+    /* #MenuX{
+        display: none; 
+    } */
+    header{
+        height: 90px;
+    } 
+    .TextoImagenInicio > b{
+        font-size: 70px;
+    }
+    .TextoImagenInicio2 > b{
+        font-size: 50px;
+        margin-left: -30px;
+    }
+    .TextoImagenInicio3 > b {
+        font-size: 45px;
+        margin-left: -30px;
+    }
+    .TextoImagenInicio4 > b {
+        font-size: 45px;
+        margin-top: -150px;
+        display: none;
+    }
+    #TextoVideo > b{
+     display: none;
+    }
+    .BotonVideo > .ClickAqui2{
+        display: none;
+    }
+    .BotonImagenInicio > .ClickAqui{
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+    .BotonImagenInicio2> .ClickAqui{
+        margin-top: 30px;
+        margin-left: -15px;
+    }
+    .BotonImagenInicio3> .ClickAqui{
+        margin-top: 30px;
+        margin-left: -15px;
+    }
+    .BotonImagenInicio4> .ClickAqui3{
+        margin-top: 30px;
+        margin-left: 25px;
+        width: 100%;
+        height: 40px;
+        font-size: 10px;
+    }
+    .ImagenInicio2{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        margin-left: 40%;
+        display: inline-block;
+    } 
+    .ImagenInicio4{
+        font-size: 30px;
+    }
+    .TitulosInicioX, .TitulosInicioX2{
+        font-size: 10px ;
+    }
+    .peta{
+        font-size: 10px;
+    }
+    span > .peta2{
+        font-size: 10px;
+    }
+    .TextoTissia2{
+        font-size: 12px;
+    }
+    .TextoTissia{
+        font-size: 5px;
+    }
+    .TextoTissia3{
+        font-size: 13px;
+    }
+    .TextoTissia3 > .TitulosInicioX3{
+        font-size: 20px;
+    }
+    footer{
+        display: none;
+    }
+}
+@media screen and (max-width:906px){
+    .LineaHr{
+        display: none;
+    }
+    .GrupoIconos{
+        display: none;
+    }
+    .ContenedorX {
+        margin-left: 0; 
+        margin-right: 20px; 
+    }    
+    #MenuX{
+        display: none; 
+    }   
+    header{
+        height: 70px;
+    }
+    #Titulo > #TituloMarca{
+        margin-top: -35px;
+    }
+    #Titulo > #TituloMarca > a{
+        font-size: 50px;
+    }
+    #TituloMarca{
+        margin-top: -50px;
+    }
+    .BotonImagenInicio > .ClickAqui{
+        margin-top: 70px;
+        margin-left: -15px;
+        width: 95px;
+        height: 20px;
+        font-size: 9px;
+    }
+    .BotonImagenInicio2 > .ClickAqui{
+        margin-left: -20px;
+        margin-top: 50px ;
+        width: 95px;
+        height: 20px;
+        font-size: 9px;
+    }
+    .BotonImagenInicio3 > .ClickAqui{
+        margin-left: -25px;
+        margin-top: 50px ;
+        width: 95px;
+        height: 20px;
+        font-size: 9px;
+    }
+    .BotonImagenInicio4> .ClickAqui3{
+        margin-top: 30px;
+        margin-left: -30px;
+        width: 300px;
+        height: 30px;
+        font-size: 7px;
+        letter-spacing: 16px;
+    }
+    .TextoImagenInicio > b{
+        font-size: 50px;
+        margin-left: -40px;
+    }
+    .TextoImagenInicio2 > b{
+        font-size: 25px;
+        margin-left: 15px;
+    }
+    .TextoImagenInicio3 > b{
+        font-size: 25px;
+        margin-left: 15px;
+    }
+    footer{
+        display: none;
+    }
+    .TextoTissia > .peta{ 
+        font-size: 11px;
+    }
+    .TitulosInicioX, .TitulosInicioX2{
+        font-size: 20px ;
+    }
+}
+@media screen and (max-width:686px){
+    .TextoImagenInicio > b{
+        font-size: 30px;
+        margin-left: -40px;
+    }
+    .TextoImagenInicio2 > b{
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    .TextoImagenInicio3 > b {
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    .TextoTissia > .peta{ 
+        font-size: 7px;
+    }
+    .TitulosInicioX, .TitulosInicioX2{
+        font-size: 10px ;
+    }
+    .BotonImagenInicio > .ClickAqui{
+        margin-top: 90px;
+        margin-left: -15px;
+        width: auto;
+        height: 10px;
+        font-size: 6px;
+    }
+}
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
+
+#Header{
+    width: 100vw;
+    /* height: 100px; */
+    margin-top: -10px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin: -8px;
+    float: left;
+    position: fixed;
+    z-index: 2;
+}
+#Logo{
+    transform: rotateY(180deg);
+    display: inline-block;
+}
+div > #HeadBand3{
+     width: 150px;
+     height: 50px;
+}
+#TituloMarca{
+    font-size: 75px;
+    font-family: 'Logo';
+    display: inline-block;
+    margin-top: -16px;
+    width: 50%;
+    text-align: center;
+    height: 100px;
+    z-index: 1;
+    letter-spacing: -2px;
+}
+#Titulo{
+    text-align: center;
+} 
+#TituloMarca > a{
+    text-decoration: none;
+    color: #111;
+}
+.GrupoIconos{
+    margin-top: -90px;
+    margin-left: 80.5%;
+}
+.UlIconos{
+    float: left;
+    list-style: none;
+}
+.LiIconos{
+    float: left;
+}
+.LiIconos > a > .FormatoIconos{
+    width: 32px;
+    height: 32px;
+    margin-left: 30px;
+}
+#MenuX{
+    margin-left: -70px;
+    margin-bottom: -10px;
+}
+.MenuDesp {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: 0.5s;
+}
+.ContenedorX{
+    margin-left: 135px;
+    margin-top: 20px;
+    width: 1px;
+    height: 1px;
+    z-index: 3;
+}
+.MenuDesp a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 20px;
+    color: #818181;
+    display: inline-block;
+    font-family: 'TipografiaTitulos';
+}
+.MenuDesp a:hover {
+    color: #f1f1f1;
+}
+.ContenedorX > .Label {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+.ContenedorX > .Label:hover + .MenuDesp {
+    width: 200px;
+}
+.MenuDesp:hover {
+    width: 250px;
+}
+.LineaHr{
+    width: 600px; 
+    height: 3px; 
+    background: linear-gradient(to right, transparent, black, transparent); /* Degradado */
+    margin: auto; 
+    margin-top: 80px;
+}
+.ropacesta{
+    width: 80px;
+    height: 100px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+    transition: background-image 0.3s ease;
+    background-size: cover;
+}
+#CestaRopa1 {
+    background-image: url('../IMG/ROPA/baggyjeans.jpg');
+}
+#CestaRopa1:hover {
+    background-image: url('../IMG/ROPA/baggyjeans2.jpg');
+}
+#CestaRopa2 {
+    background-image: url('../IMG/ROPA/jerseyblanco.jpg');
+}
+#CestaRopa2:hover {
+    background-image: url('../IMG/ROPA/jerseyblanco2.jpg');
+}
+#finalizarcompra{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+.cestacompra {
+    width: 300px;
+    height: 440px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 71px;
+    left: 75%;
+    visibility: hidden;
+    opacity: 0;
+}
+.LiIconos:hover .cestacompra {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s ease;
+}
+#baggyjeans2{
+   margin-right: 400px;
+   font-family: 'Times New Roman', Times, serif;
+}
+#jerseyblanco2{
+    margin-right: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 25px;
+}
+.IconosMagicos{
+    margin-top: 50px;
+    margin-left: 30px;
+    float: left;
+    width: 100%;
+}
+.IconosMagicos > .ImagenesMaginas{
+    width: 70px;
+    height: 70px;
+    margin-left: 40px;
+}
+.IconosMagicos > .ImagenesMaginas1{
+    width: 50px;
+    height: 40px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+.Contenido{
+    height: 100%;
+    width: auto;
+}
+.DivImgInicio3{
+    position: relative;
+}
+.ImagenInicio1 > #MujerNegra{
+    width: 100%;
+    margin-top: 83px;
+    position: relative;
+}
+.DivContenedorGucci{
+    width: 100%;
+    height: 770px;
+    background-color: #ffffff;
+}
+.ContentIni{
+    margin-left: 2%;
+    width: 47.5%;
+    height: 750px;
+    float: left;
+    display: flex;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+#G1{
+    background-image: url(../IMG/INICIO/GucciInicioKendall.jpg);
+}
+#G2{
+    background-image: url(../IMG/INICIO/GucciInicio.png);
+}
+#ImagenAcc{
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+}
+#VideoLoop{
+    margin-top: 2.5px;
+}
+#TextoVideo{
+    position: absolute; 
+    font-size: 3.5em;
+    font-family: 'TipografiaTitulos';
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-shadow: 10px 7px 7px rgb(0, 0, 0);
+    margin-top: -17.5%;
+    margin-left: 17.5%;
+}
+.TextoImagenInicio{
+    position: absolute; 
+    font-size: 6em;
+    font-family: 'TipografiaTitulos';
+    color: white;
+    text-shadow: 10px 7px 7px rgb(0, 0, 0);
+    margin-top: -35%;
+    margin-left: 100px;
+}
+.TextoImagenInicio2{
+    position: absolute;
+    left: 10%;
+    margin-top: 35%;
+    font-size: 4em;
+    font-family: 'TipografiaTitulos';
+    color: white;
+    text-shadow: 10px 7px 7px rgb(0, 0, 0);
+}
+.TextoImagenInicio3{
+    position: absolute;
+    left: 57.5%;
+    font-size: 4em;
+    margin-top: 35%;
+    font-family: 'TipografiaTitulos';
+    color: white;
+    text-shadow: 10px 7px 7px rgb(0, 0, 0);
+}
+.TextoImagenInicio4{
+    position: absolute; 
+    font-size: 9em;
+    font-family: 'TipografiaTitulos';
+    color: white;
+    text-shadow: 10px 7px 7px rgb(0, 0, 0);
+    margin-top: -38%;
+    margin-left: 12.5%;
+    text-align: center;
+}
+.ClickAqui{
+    color: #000000a1;
+    background-color: rgba(255, 255, 255, 0.938);
+    width: 178px;
+    height: 30px;
+    font-family: 'Botones';
+    font-size: 1em;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+    border-radius: 2px 2px;
+    transition: transform 0.3s ease;
+    border-style: none;
+}
+.ClickAqui2{
+    width: 500px;
+    height: 20px;
+    font-size: 1em;
+    background-color: #ffffff;
+    color: rgba(71, 71, 71, 0.781);
+    border-style: none;
+    font-family: 'Botones2';
+    letter-spacing: 7px;
+    word-spacing: 10px;
+    transition: transform 0.3s ease;
+    border-radius: 5px 5px;
+}
+.ClickAqui3{
+    color: #000000d7;
+    background-color: rgba(255, 255, 255, 0.615);
+    width: 700px;
+    height: 35px;
+    font-family: 'Botones';
+    font-size: 1.3em;
+    letter-spacing: 30px;
+    word-spacing: 10px;
+    border-radius: 2px 2px;
+    transition: transform 0.3s ease;
+    border-style: none;
+}
+.BotonImagenInicio{
+    position: absolute;
+    margin-top: -25%;
+    margin-left: 25%;
+    /* box-shadow: 4px 4px  rgba(0, 0, 0, 0.229); */
+}
+.BotonImagenInicio2{
+    position: absolute;
+    margin-top: 42.5%;
+    margin-left: 19%;
+    z-index: 1;
+    /* box-shadow: 4px 4px  rgba(0, 0, 0, 0.229); */
+}
+.BotonImagenInicio3{
+    position: absolute;
+    display: flex;
+    margin-top: 42.5%;
+    margin-left: 70%;
+    /* box-shadow: 4px 4px  rgba(0, 0, 0, 0.229); */
+}
+.BotonImagenInicio4{
+    position: absolute;
+    display: flex;
+    margin-top: -24%;
+    margin-left: 30%;
+    /* box-shadow: 4px 4px  rgba(0, 0, 0, 0.229); */
+}
+.BotonVideo{
+    position: absolute;
+    margin-left: 33.5%;
+    margin-top: -10.5%;
+}
+.ClickAqui:hover{
+    color: rgb(24, 24, 24);
+    background-color: rgba(255, 255, 255, 0.938);
+    transition: 0.3s ease;
+    transform: scale(0.9);
+}
+.ClickAqui2:hover{
+    color: rgb(71, 71, 71);
+    background-color: rgba(255, 255, 255, 0.938);
+    transition: 0.3s ease;
+    transform: scale(0.9);
+}
+.ClickAqui3:hover{
+    color: rgb(21, 21, 21);
+    background-color: rgba(255, 255, 255, 0.825);
+    transition: 0.3s ease;
+    transform: scale(0.9);
+    font-weight: 700;
+}
+#TissiaInicio1{
+    background-image: url('../IMG/INICIO/Caja.png');
+    background-position: center;
+    transition: 0.4s ease;
+}
+#TissiaInicio1:hover{
+    background-image: url('../IMG/INICIO/Caja2.png');
+    background-position: center;
+}
+#TissiaInicio2{
+    background-image: url('../IMG/INICIO/Collar.png');
+    background-position: center;
+    transition: 0.4s ease;
+}
+#TissiaInicio2:hover{
+    background-image: url('../IMG/INICIO/Collar2.png');
+    background-position: center;
+}
+#TissiaInicio3{
+    background-image: url('../IMG/INICIO/Tienda.png');
+    background-position: center;
+    transition: 0.4s ease;
+}
+#TissiaInicio3:hover{
+    background-image: url('../IMG/INICIO/Tienda2.png');
+    background-position: center;
+}
+#TissiaInicio4{
+    background-image: url('../IMG/INICIO/TiendaExte.png');
+    background-position: center;
+    transition: 0.4s ease;
+}
+#TissiaInicio4:hover{
+    background-image: url('../IMG/INICIO/TiendaExte2.png');
+    background-position: center;
+}
+#TissiaInicio5{
+    background-image: url('../IMG/INICIO/TiendaExte.png');
+    background-position: center;
+    transition: 0.4s ease;
+}
+#TissiaInicio5:hover{
+    background-image: url('../IMG/INICIO/TiendaExte2.png');
+    background-position: center;
+}
+#TissiaInicio6{
+    background-image: url('../IMG/INICIO/TiendaExte.png');
+    background-position: center;
+    transition: 0.4s ease;
+}
+#TissiaInicio6:hover{
+    background-image: url('../IMG/INICIO/TiendaExte2.png');
+    background-position: center;
+}
+.DivImagenesTissia{
+    display: inline-block;
+    width: 100%;
+    height: 560px;
+    margin-top: -85px;
+    background-color: #ffffff;
+}
+.ImagenesTissia{
+    width: 22.5%;
+    height: 500px;
+    background-color: white;
+    margin-left: 2% ;
+    margin-top: 2%;
+    float: left;
+    display: flex;
+    background-size: cover;
+    font-family: 'Marca';
+    text-align: center;
+    text-decoration: none;
+}
+.DivTextoTissia{
+    display: inline-block;
+    width: 100%;
+    height: 325px;
+    margin-top: -85px;
+    background-color: #ffffff;
+}
+.TextoTissia{
+    width: 22.5%;
+    height: 200px;
+    /* background-color: rgb(255, 59, 59); */
+    margin-left: 2% ;
+    margin-top: 1%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+.TitulosInicioX{
+    font-family: 'Botones2';
+     letter-spacing: 3px; 
+}
+.TitulosInicioX2{
+    font-family: 'Botones2';
+    /* letter-spacing: 3px; */
+}
+.peta{
+    margin-top: 100px;
+    word-spacing: 5px;
+    font-family: 'TipografiaTitulos';
+}
+.BMolon{
+    font-family: 'Botones3' ;
+}
+.LiX{
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    margin-left: -7%;
+}
+.LiX > a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'TipografiaTitulos' ;
+    color: rgb(49, 49, 49);
+    font-size: 20px;
+    display: inline-block;
+    top: 25px;
+    list-style: none;
+}
+.LiX:hover, a:hover{
+    list-style: none;
+}
+.Lix:hover{
+color: #111;
+}
+.LiX> :after{
+    content: '';
+    position: absolute;
+    background-color: rgb(218, 218, 218);
+    height: 1px;
+    width: 0%;
+    height: 1.5px;
+    left: 0;
+    bottom: -2px;
+    transition: 0.3s;
+}
+.LiX> :hover:after{
+    width: 100%;
+}
+.Contenido2{
+    text-align: center;
+}
+.FuentesTitulosGrande{
+    font-family: 'TipografiaTitulos';
+    font-size: 30px;
+}
+.FuentesTitulos{
+    font-family: 'TipografiaTitulos';
+    font-size: 13px;
+}
+.FuenteTextoFormLeft{
+    font-family: 'Marca';
+    text-align: left;
+    margin-left: 17px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.FuenteTextoForm{
+    font-family: 'Marca';
+}
+.FuentesTitulos:hover{
+    color: #333333;
+}
+#boton:hover{
+ background-color: #333333;
+}
+.ContenedorPrivado{
+    text-align: left;
+}
+.formulario{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+}
+#boton{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 565px;
+    text-align: center;
+    margin-top: 10px;
+}
+.Grande{
+    margin-top: 100px;
+    text-align: center;
+}
+#formulario1{
+    margin-top: -10px;
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+}
+#formulario2{
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    margin-left: 50px;
+}
+#formulario3{
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    margin-left: 50px;
+}
+#PoliticaPriv{
+    font-size: 10px;
+}
+#CentrarPuto3{
+    width: 100%;
+    height: auto;
+    margin-left: 7.5%;
+}
+.Contenido3{
+    width: 1600px;
+    height: 700px;
+    align-items: center;
+    display: inline-block;
+    margin-top: 30px;
+}
+#Textotiendas{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 200px;
+} 
+div > a > .tienda1{
+    height:200px ;
+    width:250px ;
+    float: left;
+    margin-left: 55px;
+    margin-top: 160px;
+    border-color: rgb(1, 1, 1);
+    position: static;
+    transition: 0.5s ease;
+}
+div > a > .tienda2{
+    height:200px ;
+    width:250px ;
+    float: left;
+    margin-left: 55px;
+    margin-top: 160px;
+    position: absolute;
+}
+div > a > .tienda3{
+    height:200px ;
+    width:250px ;
+    float: left;
+    margin-left: 357px;
+    margin-top: 160px;
+    position: absolute;
+} 
+div > a > .tienda4{
+    height:200px ;
+    width:250px ;
+    float: left;
+    margin-left: 657px;
+    margin-top: 160px;
+    position: absolute;
+}
+.nombres{
+    float: left;
+    margin-left: 55px;
+    height: 200px;
+    width: 250px;
+    font-family: 'Marca';
+}
+div > .nombres{
+    text-align: justify;
+}
+.nombres > b{
+    font-family: 'TipografiaTitulos';
+}
+.tienda1:hover{
+    content: url(../IMG/UBI/Tiendadonde2.png);
+}
+.tienda2:hover{
+    content: url(../IMG/UBI/Tiendadonde4.png);
+}
+.tienda3:hover{
+    content: url(../IMG/UBI/Tiendadonde6.png);
+}
+.tienda4:hover{
+    content: url(../IMG/UBI/Tiendadonde8.png);
+}
+div > a > img{
+    box-shadow: 7px 7px 3px 3px rgba(0, 0, 0, 0.688);
+}
+.serrano{
+    font-family: 'TipografiaTitulos';
+}
+.village{
+    font-family: 'TipografiaTitulos'; 
+}
+.castellana{
+    font-family: 'TipografiaTitulos';
+}
+.canalejas{
+    font-family: 'TipografiaTitulos';
+}
+.EMAIL{
+    color: black;
+}
+.EMAIL:hover{
+    color: goldenrod;
+}
+.ubi{
+    width: 1230px;
+    height: 675px;
+    /* margin-top: 20px; */
+    margin-left: 25px; 
+    align-items: center;
+    text-align: center;
+}
+#ubi1{
+    width: 1230px;
+    height: 500px;
+    border:3px rgb(18, 7, 49) solid;
+    box-shadow: 2px 2px 5px 5px rgb(60, 102, 102);
+}
+#nuestrasede{
+    font-size: 35px;
+    font-family: 'TipografiaTitulos';
+    color: rgb(42, 29, 29);
+    text-shadow: 2px 2px 7px rgb(118, 108, 108);
+}
+#TituloPrincipalMujer{
+    width: 100%;
+    height: 165px;
+    background-color: #11111134;
+    display: inline-block;
+}
+.TituloPrincipalMujer{
+    color: white;
+    margin-top: 7.5%;
+    margin-left: 40px ;
+    font-family: 'Marca';
+    letter-spacing: 3px;
+}
+#TituloPrincipalMujer{
+    width: 100%;
+    height: 165px;
+    background-color: #11111134;
+    display: inline-block;
+}
+.TituloPrincipalMujer{
+    color: white;
+    /* margin-top: 7.5%; */
+    margin-left: 40px ;
+    font-family: 'Marca';
+    letter-spacing: 3px;
+}
+#RopaMujer1{
+    background-image: url('../IMG/ROPA/abrigo.webp');
+    background-position: center;
+}
+#RopaMujer1:hover{
+    background-image: url('../IMG/ROPA/abrigo2.webp');
+    background-position: center;
+}
+#RopaMujer2{
+    background-image: url('../IMG/ROPA/jerseyblanco.jpg');
+    background-position: center;
+}
+#RopaMujer2:hover{
+    background-image: url('../IMG/ROPA/jerseyblanco2.jpg');
+    background-position: center;
+}
+#RopaMujer3{
+    background-image: url('../IMG/ROPA/pantalonestraje.jpg');
+    background-position: center;
+}
+#RopaMujer3:hover{
+    background-image: url('../IMG/ROPA/pantalonestraje2.jpg');
+    background-position: center;
+}
+#RopaMujer4{
+    background-image: url('../IMG/ROPA/vestidoneg.jpg');
+    background-position: center;
+}
+#RopaMujer4:hover{
+    background-image: url('../IMG/ROPA/vestidoneg2.jpg');
+    background-position: center;
+}
+#RopaMujer5{
+    background-image: url('../IMG/ROPA/topgranate.jpg');
+    background-position: center;
+}
+#RopaMujer5:hover{
+    background-image: url('../IMG/ROPA/topgranate2.jpg');
+    background-position: center;
+}
+#RopaMujer6{
+    background-image: url('../IMG/ROPA/faldapantalon.jpg');
+    background-position: center;
+}
+#RopaMujer6:hover{
+    background-image: url('../IMG/ROPA/faldapantalon2.jpg');
+    background-position: center;
+}
+#RopaMujer7{
+    background-image: url('../IMG/ROPA/topnegro.webp');
+    background-position: center;
+}
+#RopaMujer7:hover{
+    background-image: url('../IMG/ROPA/topnegro2.webp');
+    background-position: center;
+}
+#RopaMujer8{
+    background-image: url('../IMG/ROPA/camisetaazul2.webp');
+    background-position: center;
+}
+#RopaMujer8:hover{
+    background-image: url('../IMG/ROPA/camisetaazul.webp');
+    background-position: center;
+}
+#RopaMujer9{
+    background-image: url('../IMG/ROPA/cazadora.jpg');
+    background-position: center;
+}
+#RopaMujer9:hover{
+    background-image: url('../IMG/ROPA/cazadora2.jpg');
+    background-position: center;
+}
+#RopaMujer10{
+    background-image: url('../IMG/ROPA/baggyjeans.jpg');
+    background-position: center;
+}
+#RopaMujer10:hover{
+    background-image: url('../IMG/ROPA/baggyjeans2.jpg');
+    background-position: center;
+}
+#RopaMujer11{
+    background-image: url('../IMG/ROPA/sudadera.jpg');
+    background-position: center;
+}
+#RopaMujer11:hover{
+    background-image: url('../IMG/ROPA/sudadera2.jpg');
+    background-position: center;
+}
+#RopaMujer12{
+    background-image: url('../IMG/ROPA/vaqueroscampana.jpg');
+    background-position: center;
+}
+#RopaMujer12:hover{
+    background-image: url('../IMG/ROPA/vaqueroscampana2.jpg');
+    background-position: center;
+}
+#RopaMujer13{
+    background-image: url('../IMG/ROPA/bikinii.jpg');
+    background-position: center;
+}
+#RopaMujer13:hover{
+    background-image: url('../IMG/ROPA/bikinii2.jpg');
+    background-position: center;
+}
+#RopaMujer14{
+    background-image: url('../IMG/ROPA/pantalonespijama.webp');
+    background-position: center;
+}
+#RopaMujer14:hover{
+    background-image: url('../IMG/ROPA/pantalonespijama2.webp');
+    background-position: center;
+}
+#RopaMujer15{
+    background-image: url('../IMG/ROPA/bikini.jpg');
+    background-position: center;
+}
+#RopaMujer15:hover{
+    background-image: url('../IMG/ROPA/bikini2.jpg');
+    background-position: center;
+}
+#RopaMujer16{
+    background-image: url('../IMG/ROPA/vestidoblanco.webp');
+    background-position: center;
+}
+#RopaMujer16:hover{
+    background-image: url('../IMG/ROPA/vestidoblanco2.webp');
+    background-position: center;
+}
+#RopaMujer1:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaMujer2:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaMujer3:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaMujer4:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaMujer5:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaMujer6:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaMujer7:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaMujer8:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaMujer9:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaMujer10:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaMujer11:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaMujer12:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaMujer13:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaMujer14:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaMujer15:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaMujer16:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#TT{
+    margin-top: 115px;
+    font-size: 25px;
+}
+#TituloPrincipalHombre{
+    width: 100%;
+    height: 165px;
+    background-color: #111111;
+    display: inline-block;
+}
+.TituloPrincipalHombre{
+    color: white;
+    /* margin-top: 8%; */
+    margin-left: 40px ;
+    font-family: 'Marca';
+    letter-spacing: 3px;
+}#RopaHombre1{
+    background-image: url('../IMG/ROPA/abrigoligero.avif');
+    background-position: center;
+}
+#RopaHombre1:hover{
+    background-image: url('../IMG/ROPA/abrigoligero2.avif');
+    background-position: center;
+}
+#RopaHombre2{
+    background-image: url('../IMG/ROPA/chaleco.jpg');
+    background-position: center;
+}
+#RopaHombre2:hover{
+    background-image: url('../IMG/ROPA/chaleco2.jpg');
+    background-position: center;
+}
+#RopaHombre3{
+    background-image: url('../IMG/ROPA/abrigoconfort.jpg');
+    background-position: center;
+}
+#RopaHombre3:hover{
+    background-image: url('../IMG/ROPA/abrigoconfort2.jpg');
+    background-position: center;
+}
+#RopaHombre4{
+    background-image: url('../IMG/ROPA/bomber.jpg');
+    background-position: center;
+}
+#RopaHombre4:hover{
+    background-image: url('../IMG/ROPA/bomber2.jpg');
+    background-position: center;
+}
+#RopaHombre5{
+    background-image: url('../IMG/ROPA/camisabasica.jpg');
+    background-position: center;
+}
+#RopaHombre5:hover{
+    background-image: url('../IMG/ROPA/camisabasica2.jpg');
+    background-position: center;
+}
+#RopaHombre6{
+    background-image: url('../IMG/ROPA/camisalino.jpg');
+    background-position: center;
+}
+#RopaHombre6:hover{
+    background-image: url('../IMG/ROPA/camisalino2.jpg');
+    background-position: center;
+}
+#RopaHombre7{
+    background-image: url('../IMG/ROPA/jeans.jpg');
+    background-position: center;
+}
+#RopaHombre7:hover{
+    background-image: url('../IMG/ROPA/jeans2.jpg');
+    background-position: center;
+}
+#RopaHombre8{
+    background-image: url('../IMG/ROPA/pantalonchino.jpg');
+    background-position: center;
+}
+#RopaHombre8:hover{
+    background-image: url('../IMG/ROPA/pantalonchino2.jpg');
+    background-position: center;
+}
+#RopaHombre9{
+    background-image: url('../IMG/ROPA/Jerseymezcla.jpg');
+    background-position: center;
+}
+#RopaHombre9:hover{
+    background-image: url('../IMG/ROPA/Jerseymezcla2.jpg');
+    background-position: center;
+}
+#RopaHombre10{
+    background-image: url('../IMG/ROPA/Sudaderagris.jpg');
+    background-position: center;
+}
+#RopaHombre10:hover{
+    background-image: url('../IMG/ROPA/Sudaderagris2.jpg');
+    background-position: center;
+}
+#RopaHombre11{
+    background-image: url('../IMG/ROPA/Calzoncillos.jpg');
+    background-position: center;
+}
+#RopaHombre11:hover{
+    background-image: url('../IMG/ROPA/Calzoncillos2.jpg');
+    background-position: center;
+}
+#RopaHombre12{
+    background-image: url('../IMG/ROPA/Calzoncillosmarron.jpg');
+    background-position: center;
+}
+#RopaHombre12:hover{
+    background-image: url('../IMG/ROPA/Calzoncillosmarron2.jpg');
+    background-position: center;
+}
+#RopaHombre13{
+    background-image: url('../IMG/ROPA/CazadoraPluma.jpg');
+    background-position: center;
+}
+#RopaHombre13:hover{
+    background-image: url('../IMG/ROPA/CazadoraPluma2.jpg');
+    background-position: center;
+}
+#RopaHombre14{
+    background-image: url('../IMG/ROPA/Cazadoraligera.jpg');
+    background-position: center;
+}
+#RopaHombre14:hover{
+    background-image: url('../IMG/ROPA/Cazadoraligera2.jpg');
+    background-position: center;
+}
+#RopaHombre15{
+    background-image: url('../IMG/ROPA/Jeanstraight.jpg');
+    background-position: center;
+}
+#RopaHombre15:hover{
+    background-image: url('../IMG/ROPA/Jeanstraight2.jpg');
+    background-position: center;
+}
+#RopaHombre16{
+    background-image: url('../IMG/ROPA/Slimroto.jpg');
+    background-position: center;
+}
+#RopaHombre16:hover{
+    background-image: url('../IMG/ROPA/Slimroto2.jpg');
+    background-position: center;
+}
+#RopaHombre1:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaHombre2:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaHombre3:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaHombre4:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaHombre5:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaHombre6:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaHombre7:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaHombre8:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaHombre9:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaHombre10:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaHombre11:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaHombre12:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaHombre13:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaHombre14:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaHombre15:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaHombre16:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#TituloPrincipalHombre{
+    width: 100%;
+    height: 165px;
+    background-color: #111111;
+    display: inline-block;
+}
+.TituloPrincipalHombre{
+    color: white;
+    margin-top: 7.5%;
+    margin-left: 40px ;
+    font-family: 'Marca';
+    letter-spacing: 3px;
+}
+.DivImagenesRopa{
+    display: inline-block;
+    width: 100%;
+    height: 560px;
+    background-color: #ffffff;
+}
+.ImagenesRopa{
+    width: 22.5%;
+    height: 500px;
+    background-color: white;
+    margin-left: 2% ;
+    margin-top: 2%;
+    float: left;
+    display: flex;
+    background-size: cover;
+    font-family: 'Marca';
+    text-align: center;
+    text-decoration: none;
+}
+.AbajoFoto > a{
+    text-decoration: none;
+    font-family: 'Marca';
+    color: #ff6060;
+    font-size: 14px;
+    top: -30px;
+}
+.AbajoFoto {
+    width: 100%;
+    height: 40px; 
+    margin-top: 500px; 
+    visibility: hidden;
+    opacity: 0; 
+    background-color: rgba(230, 230, 230, 0.664);
+    overflow: hidden;
+    transition: 0.4s;
+}
+#TituloPrincipalNiño{
+    width: 100%;
+    height: 165px;
+    background-color: #11111134;
+    display: inline-block;
+}
+.TituloPrincipalNiño{
+    color: white;
+    margin-top: 7.5%;
+    margin-left: 40px ;
+    font-family: 'Marca';
+    letter-spacing: 3px;
+}
+#TituloPrincipalNiño{
+    width: 100%;
+    height: 165px;
+    background-color: #11111134;
+    display: inline-block;
+}
+.TituloPrincipalNiño{
+    color: white;
+    /* margin-top: 7.5%; */
+    margin-left: 40px ;
+    font-family: 'Marca';
+    letter-spacing: 3px;
+}
+#RopaNiño1{
+    background-image: url('../IMG/ROPA/petolargo.avif');
+    background-position: center;
+}
+#RopaNiño1:hover{
+    background-image: url('../IMG/ROPA/petolargo2.avif');
+    background-position: center;
+}
+#RopaNiño2{
+    background-image: url('../IMG/ROPA/jeansflear.avif');
+    background-position: center;
+}
+#RopaNiño2:hover{
+    background-image: url('../IMG/ROPA/jeansflear2.avif');
+    background-position: center;
+}
+#RopaNiño3{
+    background-image: url('../IMG/ROPA/pantalonalgodon.avif');
+    background-position: center;
+}
+#RopaNiño3:hover{
+    background-image: url('../IMG/ROPA/pantalonalgodon2.avif');
+    background-position: center;
+}
+#RopaNiño4{
+    background-image: url('../IMG/ROPA/vestidobordado.jpg');
+    background-position: center;
+}
+#RopaNiño4:hover{
+    background-image: url('../IMG/ROPA/vestidobordado2.jpg');
+    background-position: center;
+}
+#RopaNiño5{
+    background-image: url('../IMG/ROPA/pantalonrecto.avif');
+    background-position: center;
+}
+#RopaNiño5:hover{
+    background-image: url('../IMG/ROPA/pantalonrecto2.avif');
+    background-position: center;
+}
+#RopaNiño6{
+    background-image: url('../IMG/ROPA/sudaderaalgodon.avif');
+    background-position: center;
+}
+#RopaNiño6:hover{
+    background-image: url('../IMG/ROPA/sudaderaalgodon2.avif');
+    background-position: center;
+}
+#RopaNiño7{
+    background-image: url('../IMG/ROPA/jerseyflores.avif');
+    background-position: center;
+}
+#RopaNiño7:hover{
+    background-image: url('../IMG/ROPA/jerseyflores2.avif');
+    background-position: center;
+}
+#RopaNiño8{
+    background-image: url('../IMG/ROPA/conjunto.jpg');
+    background-position: center;
+}
+#RopaNiño8:hover{
+    background-image: url('../IMG/ROPA/conjunto2.jpg');
+    background-position: center;
+}
+#RopaNiño9{
+    background-image: url('../IMG/ROPA/chubasquero.jpg');
+    background-position: center;
+}
+#RopaNiño9:hover{
+    background-image: url('../IMG/ROPA/chubasquero2.jpg');
+    background-position: center;
+}
+#RopaNiño10{
+    background-image: url('../IMG/ROPA/camisarayas.jpg');
+    background-position: center;
+}
+#RopaNiño10:hover{
+    background-image: url('../IMG/ROPA/camisarayas2.jpg');
+    background-position: center;
+}
+#RopaNiño11{
+    background-image: url('../IMG/ROPA/pantalonjogger.jpg');
+    background-position: center;
+}
+#RopaNiño11:hover{
+    background-image: url('../IMG/ROPA/pantalonjogger2.jpg');
+    background-position: center;
+}
+#RopaNiño12{
+    background-image: url('../IMG/ROPA/vestidoniña.jpg');
+    background-position: center;
+}
+#RopaNiño12:hover{
+    background-image: url('../IMG/ROPA/vestidoniña2.jpg');
+    background-position: center;
+}
+#RopaNiño13{
+    background-image: url('../IMG/ROPA/chaqueta.jpg');
+    background-position: center;
+}
+#RopaNiño13:hover{
+    background-image: url('../IMG/ROPA/chaqueta2.jpg');
+    background-position: center;
+}
+#RopaNiño14{
+    background-image: url('../IMG/ROPA/pantalonnegro.jpg');
+    background-position: center;
+}
+#RopaNiño14:hover{
+    background-image: url('../IMG/ROPA/pantalonnegro2.jpg');
+    background-position: center;
+}
+#RopaNiño15{
+    background-image: url('../IMG/ROPA/vaqueronegro.jpg');
+    background-position: center;
+}
+#RopaNiño15:hover{
+    background-image: url('../IMG/ROPA/vaqueronegro2.jpg');
+    background-position: center;
+}
+#RopaNiño16{
+    background-image: url('../IMG/ROPA/vaqueroniño.jpg');
+    background-position: center;
+}
+#RopaNiño16:hover{
+    background-image: url('../IMG/ROPA/vaqueroniño2.jpg');
+    background-position: center;
+}
+#RopaNiño1:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaNiño2:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaNiño3:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaNiño4:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaNiño5:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaNiño6:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaNiño7:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaNiño8:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaNiño9:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaNiño10:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaNiño11:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaNiño12:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaNiño13:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaNiño14:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaNiño15:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaNiño16:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#Titulo1Accesorios{
+    width: 100%;
+    height: 165px;
+    background-color: #111111;
+    display: inline-block;
+}
+.Titulo1Accesorios{
+    color: white;
+    margin-top: 7.5%;
+    margin-left: 40px ;
+    font-family: 'Marca';
+    letter-spacing: 3px;
+}
+#SubTitulo1Accesorios{
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+}
+.SubTitulo1Accesorios{
+    color: rgb(0, 0, 0);
+    font-family: 'TipografiaTItulos';
+    letter-spacing: 3px;
+    font-size: 20px;
+    background-color: #18181806;
+    text-align: center;
+    height: 50px;
+}
+.DivImagenesAcc{
+    display: inline-block;
+    width: 100%;
+    height: 360px;
+    background-color: #ffffff;
+}
+.ImagenesAcc{
+    width: 22.5%;
+    height: 320px;
+    background-color: white;
+    margin-left: 2% ;
+    margin-top: 2%;
+    float: left;
+    display: flex;
+    background-size: cover;
+    font-family: 'Marca';
+    text-align: center;
+    text-decoration: none;
+}
+.TextoTissia2{
+    width: 22.5%;
+    height: 500px;
+    /* background-color: rgb(255, 59, 59); */
+    margin-left: 2% ;
+    margin-top: 2%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+.DivImagenesAcc3{
+    display: inline-block;
+    width: 100%;
+    height: 900px;
+    background-color: #ffffff;
+}
+.ImagenesAcc3{
+    width: 47%;
+    height: 850px;
+    background-color: white;
+    margin-left: 2% ;
+    margin-top: 2%;
+    float: left;
+    display: flex;
+    background-size: cover;
+    font-family: 'Marca';
+    text-align: center;
+    text-decoration: none;
+}
+.DivImagenesAcc2{
+    display: inline-block;
+    width: 100%;
+    height: 700px;
+    background-color: #ffffff;
+}
+.ImagenesAcc2{
+    width: 47%;
+    height: 650px;
+    background-color: white;
+    margin-left: 2% ;
+    margin-top: 2%;
+    float: left;
+    display: flex;
+    background-size: cover;
+    font-family: 'Marca';
+    text-align: center;
+    text-decoration: none;
+}
+.DivImagenesAccC{
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+    margin-top: -20px;
+}
+.ImagenesAccC{
+    width: 22.5%;
+    height: 440px;
+    background-color: white;
+    margin-left: 2% ;
+    margin-top: 2%;
+    float: left;
+    display: flex;
+    background-size: cover;
+    font-family: 'Marca';
+    text-align: center;
+    text-decoration: none;
+}
+.TextoTissia3{
+    width: 47%;
+    height: 650px;
+    /* background-color: rgb(255, 59, 59); */
+    margin-left: 2% ;
+    margin-top: 2%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+.TitulosInicioX3{
+    font-family: 'Botones2';
+    font-size: 4em;
+    /* letter-spacing: 3px; */
+}
+.peta2{
+    margin-top: 100px;
+    word-spacing: 5px;
+    font-size: 1.2em;
+    font-family: 'TipografiaTitulos';
+}
+.BMolon{
+    font-family: 'Botones3' ;
+}
+.Pekeño{
+    font-size: 10px;
+}
+.Rico{
+    color: rgb(141, 10, 36);
+}
+.Notas{
+    text-align: justify;
+}
+#Accesorios1{
+    background-image: url('../IMG/ACCES/Joya1.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios1:hover{
+    background-image: url('../IMG/ACCES/Joya2.jpg');
+    background-position: center;
+}
+#Accesorios2{
+    background-image: url('../IMG/ACCES/Joya3.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios2:hover{
+    background-image: url('../IMG/ACCES/Joya4.jpg');
+    background-position: center;
+}
+#Accesorios3{
+    background-image: url('../IMG/ACCES/Joya6.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios3:hover{
+    background-image: url('../IMG/ACCES/Joya5.jpg');
+    background-position: center;
+}
+#Accesorios4{
+    background-image: url('../IMG/ACCES/Joya7.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios4:hover{
+    background-image: url('../IMG/ACCES/Joya8.jpg');
+    background-position: center;
+}
+#Accesorios5{
+    background-image: url('../IMG/ACCES/Joya9.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios5:hover{
+    background-image: url('../IMG/ACCES/Joya10.jpg');
+    background-position: center;
+}
+#Accesorios6{
+    background-image: url('../IMG/ACCES/Joya12.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios6:hover{
+    background-image: url('../IMG/ACCES/Joya11.jpg');
+    background-position: center;
+}
+#Accesorios7{
+    background-image: url('../IMG/ACCES/Joya14.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios7:hover{
+    background-image: url('../IMG/ACCES/Joya13.jpg');
+    background-position: center;
+}
+#Accesorios8{
+    background-image: url('../IMG/ACCES/Joya15.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios8:hover{
+    background-image: url('../IMG/ACCES/Joya16.jpg');
+    background-position: center;
+}
+#Accesorios9{
+    background-image: url('../IMG/ACCES/Joya17.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios9:hover{
+    background-image: url('../IMG/ACCES/Joya18.jpg');
+    background-position: center;
+}
+#Accesorios10{
+    background-image: url('../IMG/ACCES/Joya20.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios10:hover{
+    background-image: url('../IMG/ACCES/Joya19.jpg');
+    background-position: center;
+}
+#Accesorios11{
+    background-image: url('../IMG/ACCES/Joya21.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios11:hover{
+    background-image: url('../IMG/ACCES/Joya22.jpg');
+    background-position: center;
+}
+#Accesorios12{
+    background-image: url('../IMG/ACCES/Joya23.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios12:hover{
+    background-image: url('../IMG/ACCES/Joya24.jpg');
+    background-position: center;
+}
+#Accesorios13{
+    background-image: url('../IMG/ACCES/Joya26.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios13:hover{
+    background-image: url('../IMG/ACCES/Joya25.jpg');
+    background-position: center;
+}
+#Accesorios14{
+    background-image: url('../IMG/ACCES/Pen.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios14:hover{
+    background-image: url('../IMG/ACCES/Pen2.jpg');
+    background-position: center;
+}
+#Accesorios15{
+    background-image: url('../IMG/ACCES/Pen3.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios15:hover{
+    background-image: url('../IMG/ACCES/Pen4.jpg');
+    background-position: center;
+}
+#Accesorios16{
+    background-image: url('../IMG/ACCES/Pen5.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios16:hover{
+    background-image: url('../IMG/ACCES/Pen6.jpg');
+    background-position: center;
+}
+#Accesorios17{
+    background-image: url('../IMG/ACCES/Pen7.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios17:hover{
+    background-image: url('../IMG/ACCES/Pen8.jpg');
+    background-position: center;
+}
+#Accesorios18{
+    background-image: url('../IMG/ACCES/Rel1.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios18:hover{
+    background-image: url('../IMG/ACCES/Rel2.jpg');
+    background-position: center;
+}
+#Accesorios19{
+    background-image: url('../IMG/ACCES/Rel4.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios19:hover{
+    background-image: url('../IMG/ACCES/Rel3.jpg');
+    background-position: center;
+}
+#Accesorios20{
+    background-image: url('../IMG/ACCES/Rel5.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios20:hover{
+    background-image: url('../IMG/ACCES/Rel6.jpg');
+    background-position: center;
+}
+#Accesorios21{
+    background-image: url('../IMG/ACCES/Rel7.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios21:hover{
+    background-image: url('../IMG/ACCES/Rel8.jpg');
+    background-position: center;
+}
+#Accesorios22{
+    background-image: url('../IMG/ACCES/Rel9.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios22:hover{
+    background-image: url('../IMG/ACCES/Rel10.jpg');
+    background-position: center;
+}
+#Accesorios23{
+    background-image: url('../IMG/ACCES/Rel11.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios23:hover{
+    background-image: url('../IMG/ACCES/Rel12.jpg');
+    background-position: center;
+}
+#Accesorios24{
+    background-image: url('../IMG/ACCES/Rel13.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios24:hover{
+    background-image: url('../IMG/ACCES/Rel14.jpg');
+    background-position: center;
+}
+#Accesorios25{
+    background-image: url('../IMG/ACCES/RelojX1.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios25:hover{
+    background-image: url('../IMG/ACCES/RelX.jpg');
+    background-position: center;
+}
+#Accesorios26{
+    background-image: url('../IMG/ACCES/bolsocad2.webp');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios26:hover{
+    background-image: url('../IMG/ACCES/bolsocad3.webp');
+    background-position: center;
+}
+#Accesorios27{
+    background-image: url('../IMG/ACCES/bolsocad.webp');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios27:hover{
+    background-image: url('../IMG/ACCES/bolsocad1.webp');
+    background-position: center;
+}
+#Accesorios28{
+    background-image: url('../IMG/ACCES/bolsocad4.webp');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios28:hover{
+    background-image: url('../IMG/ACCES/bolsocad5.webp');
+    background-position: center;
+}
+#Accesorios29{
+    background-image: url('../IMG/ACCES/Bolso1.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios29:hover{
+    background-image: url('../IMG/ACCES/Bolso2.jpg');
+    background-position: center;
+}
+#Accesorios30{
+    background-image: url('../IMG/ACCES/BOlso3.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios30:hover{
+    background-image: url('../IMG/ACCES/Bolso4.jpg');
+    background-position: center;
+}
+#Accesorios31{
+    background-image: url('../IMG/ACCES/Bolso5.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios31:hover{
+    background-image: url('../IMG/ACCES/Bolso6.jpg');
+    background-position: center;
+}
+#Accesorios32{
+    background-image: url('../IMG/ACCES/Hombre1.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios32:hover{
+    background-image: url('../IMG/ACCES/Hombre2.jpg');
+    background-position: center;
+}
+#Accesorios33{
+    background-image: url('../IMG/ACCES/X1.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios33:hover{
+    background-image: url('../IMG/ACCES/X2.jpg');
+    background-position: center;
+}
+#Accesorios34{
+    background-image: url('../IMG/ACCES/X3.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios34:hover{
+    background-image: url('../IMG/ACCES/X4.jpg');
+    background-position: center;
+}
+#Accesorios35{
+    background-image: url('../IMG/ACCES/X5.jpg');
+    transition: 0.5s ease;
+    background-position: center;
+}
+#Accesorios35:hover{
+    background-image: url('../IMG/ACCES/X6.jpg');
+    background-position: center;
+}
+#ArribaX{
+    margin-top: -80px;
+}
+#Colonia1{
+    background-image: url('../IMG/ACCES/Colon1.png');
+    transition: 0.5s ease; 
+}
+#Colonia2{
+    background-image: url('../IMG/ACCES/Colon3.png');
+    transition: 0.5s ease; 
+}
+#Fragancia1{
+    background-image: url('../IMG/ACCES/Frag1.jpg');
+    transition: 0.5s ease;  
+}
+#Fragancia2{
+    background-image: url('../IMG/ACCES/Frag2.jpg');
+    transition: 0.5s ease;  
+}
+#Fragancia3{
+    background-image: url('../IMG/ACCES/Frag3.jpg');
+    transition: 0.5s ease;  
+}
+#Fragancia4{
+    background-image: url('../IMG/ACCES/Frag4.jpg');
+    transition: 0.5s ease;  
+}
+#Fragancia5{
+    background-image: url('../IMG/ACCES/Frag5.jpg');
+    transition: 0.5s ease;  
+}
+#Fragancia6{
+    background-image: url('../IMG/ACCES/Frag6.jpg');
+    transition: 0.5s ease;  
+}
+#Fragancia7{
+    background-image: url('../IMG/ACCES/Frag7.jpg');
+    transition: 0.5s ease;  
+}
+#Fragancia8{
+    background-image: url('../IMG/ACCES/Frag8.jpg');
+    transition: 0.5s ease;  
+}
+#TituloPrincipalZapatos{
+    width: 100%;
+    height: 165px;
+    background-color: #11111134;
+    display: inline-block;
+}
+.TituloPrincipalZapatos{
+    color: white;
+    margin-top: 7.5%;
+    margin-left: 40px ;
+    font-family: 'Marca';
+    letter-spacing: 3px;
+}
+#TituloPrincipalZapatos{
+    width: 100%;
+    height: 165px;
+    background-color: #11111134;
+    display: inline-block;
+}
+.TituloPrincipalZapatos{
+    color: white;
+    /* margin-top: 7.5%; */
+    margin-left: 40px ;
+    font-family: 'Marca';
+    letter-spacing: 3px;
+}
+#RopaZapatos1{
+    background-image: url('../IMG/ROPA/botin2.jpg');
+    background-position: center;
+}
+#RopaZapatos1:hover{
+    background-image: url('../IMG/ROPA/botinn.webp');
+    background-position: center;
+}
+#RopaZapatos2{
+    background-image: url('../IMG/ROPA/botascowboy.jpg');
+    background-position: center;
+}
+#RopaZapatos2:hover{
+    background-image: url('../IMG/ROPA/botascowboy2.jpg');
+    background-position: center;
+}
+#RopaZapatos3{
+    background-image: url('../IMG/ROPA/botas2.webp');
+    background-position: center;
+}
+#RopaZapatos3:hover{
+    background-image: url('../IMG/ROPA/botas.webp');
+    background-position: center;
+}
+#RopaZapatos4{
+    background-image: url('../IMG/ROPA/sandaliastiras.avif');
+    background-position: center;
+}
+#RopaZapatos4:hover{
+    background-image: url('../IMG/ROPA/sandaliastiras2.avif');
+    background-position: center;
+}
+#RopaZapatos5{
+    background-image: url('../IMG/ROPA/taconasi.avif');
+    background-position: center;
+}
+#RopaZapatos5:hover{
+    background-image: url('../IMG/ROPA/taconasi2.avif');
+    background-position: center;
+}
+#RopaZapatos6{
+    background-image: url('../IMG/ROPA/tacones.jpg');
+    background-position: center;
+}
+#RopaZapatos6:hover{
+    background-image: url('../IMG/ROPA/tacones2.jpg');
+    background-position: center;
+}
+#RopaZapatos7{
+    background-image: url('../IMG/ROPA/botasserpiente2.jpg');
+    background-position: center;
+}
+#RopaZapatos7:hover{
+    background-image: url('../IMG/ROPA/botasserpiente.jpg');
+    background-position: center;
+}
+#RopaZapatos8{
+    background-image: url('../IMG/ROPA/alpargatas2.avif');
+    background-position: center;
+}
+#RopaZapatos8:hover{
+    background-image: url('../IMG/ROPA/alpargatas.avif');
+    background-position: center;
+}
+#RopaZapatos9{
+    background-image: url('../IMG/ROPA/zapatosblancos.jpg');
+    background-position: center;
+}
+#RopaZapatos9:hover{
+    background-image: url('../IMG/ROPA/zapatosblancos2.jpg');
+    background-position: center;
+}
+#RopaZapatos10{
+    background-image: url('../IMG/ROPA/mocasin.jpg');
+    background-position: center;
+}
+#RopaZapatos10:hover{
+    background-image: url('../IMG/ROPA/mocasin2.jpg');
+    background-position: center;
+}
+#RopaZapatos11{
+    background-image: url('../IMG/ROPA/sandaliadoble.jpg');
+    background-position: center;
+}
+#RopaZapatos11:hover{
+    background-image: url('../IMG/ROPA/sandaliadoble2.jpg');
+    background-position: center;
+}
+#RopaZapatos12{
+    background-image: url('../IMG/ROPA/zapatoshombre.jpg');
+    background-position: center;
+}
+#RopaZapatos12:hover{
+    background-image: url('../IMG/ROPA/zapatoshombre2.jpg');
+    background-position: center;
+}
+#RopaZapatos13{
+    background-image: url('../IMG/ROPA/bambas2.jpg');
+    background-position: center;
+}
+#RopaZapatos13:hover{
+    background-image: url('../IMG/ROPA/bambas.jpg');
+    background-position: center;
+}
+#RopaZapatos14{
+    background-image: url('../IMG/ROPA/converse.jpg');
+    background-position: center;
+}
+#RopaZapatos14:hover{
+    background-image: url('../IMG/ROPA/converse2.jpg');
+    background-position: center;
+}
+#RopaZapatos15{
+    background-image: url('../IMG/ROPA/bambasbb.jpg');
+    background-position: center;
+}
+#RopaZapatos15:hover{
+    background-image: url('../IMG/ROPA/bambasbb2.jpg');
+    background-position: center;
+}
+#RopaZapatos16{
+    background-image: url('../IMG/ROPA/miniconverse.jpg');
+    background-position: center;
+}
+#RopaZapatos16:hover{
+    background-image: url('../IMG/ROPA/miniconverse2.jpg');
+    background-position: center;
+}
+#RopaZapatos1:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaZapatos2:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaZapatos3:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaZapatos4:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaZapatos5:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaZapatos6:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaZapatos7:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaZapatos8:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaZapatos9:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaZapatos10:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaZapatos11:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaZapatos12:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaZapatos13:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaZapatos14:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaZapatos15:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+#RopaZapatos16:hover .AbajoFoto {
+    visibility: visible;
+    opacity: 1;
+    height: 40px;
+    margin-top: 460px;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 900px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    margin-top: -5px;
+}
+.Casilla1{
+    width: 366px;
+    height: 600px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.Casilla2{
+    width: 366px;
+    height: 600px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.Casilla3{
+    width: 650px;
+    height: 600px;
+    float: left;
+    margin-top: 40px;
+    margin-left: -70px;
+}
+.TitulosFoot{
+    font-family: 'TipografiaTitulos';
+    color: gray;
+    margin-top: 20px;
+    word-spacing: 0.5px;
+    margin-left: 50px;
+    margin-bottom: -10px;
+    font-size: 15px;
+}
+.LiFoot{
+    width: 100%;
+    margin: 0;
+    list-style: none;
+}
+.LiFoot > a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'TipografiaTitulos' ;
+    color: white;
+    font-size: 13px;
+    display: inline-block;
+    top: 25px;
+    margin-top: 2em;
+    list-style: none;
+    padding: 0 10px;
+}
+.LiFoot:hover, a:hover{
+    color: rgb(198, 198, 198);
+    list-style: none;
+}
+#ImagenHead{
+    margin-top: -150px;
+    display: inline-block;
+    width: 1150px;
+    height: 350px;
+}
+.ImagenHead{
+    text-align: center;
+}
+.Footertexto{
+    color: white;
+}
+.FormularioGmail{
+    border-top-color: black ;
+    border-left-color: black ;
+    border-right-color: black ;
+    background-color: black;
+    width: 500px;
+    border-style: solid;
+    margin-top: 15px;
+    margin-left: 38px;
+    color: white;
+    position: absolute;
+}
+.TitulosFoot2{
+    font-family: 'TipografiaTitulos';
+    color: gray;
+    margin-top: 50px;
+    word-spacing: 0.5px;
+    margin-left: 40px;
+    margin-bottom: -10px;
+    font-size: 15px; 
+}
+.Politicas{
+    color: white;
+    display: block;
+    top: 35px;
+    margin-top: 2em;
+    margin-left: 40px;
+    font-family: 'TipografiaTitulos' ;
+    font-size: 13px;
+}
+.FormularioGmail2{
+    border-top-color: black ;
+    border-left-color: black ;
+    border-right-color: black ;
+    background-color: black;
+    width: 500px;
+    border-style: solid;
+    margin-top: 5px;
+    margin-left: 38px;
+    color: white;
+    position: absolute;
+}
+.BotonesFooter{
+    position: relative;
+    margin-left: 520px;
+    margin-top: 5px;
+    background-color: black;
+    border-style: none;
+    color: gray;
+}
+.SubrayadoBlanco{
+    color: white;
+}
+.LiFoot> :after{
+    content: '';
+    position: absolute;
+    background-color: rgb(174, 174, 174);
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -2px;
+    transition: 0.3s;
+}
+.LiFoot> :hover:after{
+    width: 100%;
+}
+.Licencia{
+    color: rgb(194, 194, 194);
+    position: absolute;
+    margin-left: 350px;
+    font-size: 12px;
+}
